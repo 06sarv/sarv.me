@@ -70,31 +70,23 @@ function App() {
         />
       )}
       
-      {/* Bottom fade/blur overlay - Cinematic seamless fade */}
-      <div
-        className="fixed bottom-0 left-0 right-0 pointer-events-none z-40"
+      {/* Bottom fade overlay */}
+      <div 
+        className="fixed bottom-0 left-0 right-0 h-24 md:h-32 pointer-events-none z-20"
         style={{
-          height: '160px',
-          background:
-            'linear-gradient(0deg, ' +
-            'rgba(0,0,0,0.9) 0%, ' +
-            'rgba(0,0,0,0.78) 6%, ' +
-            'rgba(0,0,0,0.65) 12%, ' +
-            'rgba(0,0,0,0.52) 18%, ' +
-            'rgba(0,0,0,0.40) 25%, ' +
-            'rgba(0,0,0,0.30) 33%, ' +
-            'rgba(0,0,0,0.21) 42%, ' +
-            'rgba(0,0,0,0.14) 52%, ' +
-            'rgba(0,0,0,0.09) 62%, ' +
-            'rgba(0,0,0,0.05) 72%, ' +
-            'rgba(0,0,0,0.025) 82%, ' +
-            'rgba(0,0,0,0.01) 90%, ' +
-            'rgba(0,0,0,0.003) 96%, ' +
+          background: 'linear-gradient(to top, ' +
+            'rgba(0,0,0,0.85) 0%, ' +
+            'rgba(0,0,0,0.70) 8%, ' +
+            'rgba(0,0,0,0.55) 16%, ' +
+            'rgba(0,0,0,0.42) 24%, ' +
+            'rgba(0,0,0,0.30) 32%, ' +
+            'rgba(0,0,0,0.20) 42%, ' +
+            'rgba(0,0,0,0.12) 52%, ' +
+            'rgba(0,0,0,0.06) 65%, ' +
+            'rgba(0,0,0,0.02) 80%, ' +
             'rgba(0,0,0,0) 100%)',
-          backdropFilter: 'blur(8px) saturate(180%)',
-          WebkitBackdropFilter: 'blur(8px) saturate(180%)',
-          maskImage: 'linear-gradient(to top, black 0%, transparent 100%)',
-          WebkitMaskImage: 'linear-gradient(to top, black 0%, transparent 100%)'
+          backdropFilter: 'blur(4px) saturate(150%)',
+          WebkitBackdropFilter: 'blur(4px) saturate(150%)'
         }}
       />
       
