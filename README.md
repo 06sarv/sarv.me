@@ -114,10 +114,8 @@ This project is deployed on Vercel. To deploy your own:
 
 This project is open source and available under the MIT License.
 
-## Contributing
-
-Feel free to fork this project and customize it for your own portfolio!
-
 ---
 
-Built with React, Vite, and Tailwind CSS
+<div align="center">
+  <strong>Made with ❤️ by Sarvagna</strong>
+</div> 
