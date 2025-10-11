@@ -30,17 +30,17 @@ const Navigation = ({ activeSection }) => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 px-6 py-4"
+      className="fixed top-0 left-0 right-0 z-50 px-4 py-3 md:px-6 md:py-4"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="px-6 py-3 flex items-center relative">
-          <div className="flex items-center gap-4 min-w-[80px]">
+        <div className="px-3 py-2 md:px-6 md:py-3 flex items-center relative">
+          <div className="flex items-center gap-3 md:gap-4 min-w-[60px] md:min-w-[80px]">
             <button
               onClick={() => {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
                 setActiveSection('home')
               }}
-              className="w-16 h-16 rounded-full overflow-hidden shadow-[0_0_20px_rgba(245,235,220,0.4)] hover:shadow-[0_0_30px_rgba(245,235,220,0.6)] transition-all duration-300 cursor-pointer hover:scale-105"
+              className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden shadow-[0_0_20px_rgba(245,235,220,0.4)] hover:shadow-[0_0_30px_rgba(245,235,220,0.6)] transition-all duration-300 cursor-pointer hover:scale-105"
             >
               <img
                 src="/avatar-icon.png"
@@ -58,16 +58,14 @@ const Navigation = ({ activeSection }) => {
                   exit={{ opacity: 0, scale: 0.8 }}
                   transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
                   whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => setMenuOpen((prev) => !prev)}
-                  className="p-2 text-[#F5EBDC]"
-                  aria-label="Toggle navigation menu"
+                  onClick={() => setMenuOpen(!menuOpen)}
+                  className="p-1.5 md:p-2 text-[#F5EBDC] hover:text-white transition-colors"
                 >
-                  <div className="flex flex-col gap-1">
-                    <span className="block w-6 h-0.5 bg-[#F5EBDC] rounded-full" />
-                    <span className="block w-6 h-0.5 bg-[#F5EBDC] rounded-full" />
-                    <span className="block w-6 h-0.5 bg-[#F5EBDC] rounded-full" />
-                  </div>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="md:w-8 md:h-8">
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                  </svg>
                 </motion.button>
               )}
             </AnimatePresence>
@@ -109,7 +107,7 @@ const Navigation = ({ activeSection }) => {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 bg-[#F5EBDC] text-black rounded-full text-base font-medium border-2 border-[#F5EBDC] hover:bg-black hover:text-[#F5EBDC] transition-all duration-300"
+              className="px-4 py-2 md:px-6 md:py-3 bg-[#F5EBDC] text-black rounded-full text-sm md:text-base font-medium border-2 border-[#F5EBDC] hover:bg-black hover:text-[#F5EBDC] transition-all duration-300"
             >
               Resume
             </motion.a>
