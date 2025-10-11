@@ -71,11 +71,11 @@ const Volunteering = () => {
 
                 {/* Content */}
                 <div>
-                  <div className="flex items-baseline justify-between mb-2 flex-wrap gap-2">
-                    <h3 className="text-xl md:text-2xl font-semibold text-white">
+                  <div className="flex items-start justify-between mb-2 gap-3">
+                    <h3 className="text-xl md:text-2xl font-semibold text-white flex-shrink">
                       {activity.role}
                     </h3>
-                    <span className="text-sm text-[#F5EBDC]/50 font-light">
+                    <span className="text-sm text-[#F5EBDC]/50 font-light whitespace-nowrap flex-shrink-0">
                       {activity.period}
                     </span>
                   </div>

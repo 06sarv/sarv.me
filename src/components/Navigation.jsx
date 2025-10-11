@@ -8,7 +8,7 @@ const Navigation = ({ activeSection }) => {
     { id: 'experience', label: 'Experience' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'volunteering', label: 'Extracurricular' },
+    { id: 'volunteering', label: 'Extracurriculars' },
     { id: 'contact', label: 'Contact' },
   ]
 
