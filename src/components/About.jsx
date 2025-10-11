@@ -16,7 +16,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg md:text-xl text-[#F5EBDC]/80 max-w-2xl mx-auto leading-relaxed font-light">
-            AI & CS enthusiast turning complex problems into real-world solutions. From interview simulators to microbial prediction models, I build intelligent systems that deliver impact.
+            AI & CS enthusiast turning complex problems into real-world solutions. Whether crafting chatbots or decoding data mysteries, I build intelligent systems that deliver impact.
           </p>
         </motion.div>
 
