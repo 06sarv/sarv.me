@@ -1,11 +1,21 @@
 import { motion } from 'framer-motion'
 
 const Contact = () => {
+  const handleEmailClick = (e) => {
+    e.preventDefault()
+    const email = 'sarvagna.nandyala@gmail.com'
+    
+    // Open Gmail compose in browser (works on all platforms)
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`
+    window.open(gmailUrl, '_blank')
+  }
+
   const contactMethods = [
     {
       title: 'Email',
       value: 'sarvagna.nandyala@gmail.com',
-      link: 'mailto:sarvagna.nandyala@gmail.com',
+      link: '#',
+      onClick: handleEmailClick,
       icon: () => (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -64,6 +74,7 @@ const Contact = () => {
                 href={method.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={method.onClick}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-16 h-16 md:w-20 md:h-20 bg-[#F5EBDC] text-black rounded-full flex items-center justify-center border-2 border-[#F5EBDC] hover:bg-black hover:text-[#F5EBDC] transition-all duration-300 cursor-pointer"

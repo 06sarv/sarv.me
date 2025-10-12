@@ -26,13 +26,13 @@ const CustomCursor = () => {
   // Animation loop with requestAnimationFrame
   const animate = (time) => {
     if (previousTimeRef.current !== undefined) {
-      // Smooth easing for main cursor (slower follow)
-      cursor.current.x = lerp(cursor.current.x, mouse.current.x, 0.15)
-      cursor.current.y = lerp(cursor.current.y, mouse.current.y, 0.15)
+      // Smooth easing for main cursor (faster follow)
+      cursor.current.x = lerp(cursor.current.x, mouse.current.x, 0.25)
+      cursor.current.y = lerp(cursor.current.y, mouse.current.y, 0.25)
 
       // Faster easing for cursor dot (immediate follow)
-      cursorDot.current.x = lerp(cursorDot.current.x, mouse.current.x, 0.25)
-      cursorDot.current.y = lerp(cursorDot.current.y, mouse.current.y, 0.25)
+      cursorDot.current.x = lerp(cursorDot.current.x, mouse.current.x, 0.4)
+      cursorDot.current.y = lerp(cursorDot.current.y, mouse.current.y, 0.4)
 
       // Update cursor position
       if (cursorRef.current) {
