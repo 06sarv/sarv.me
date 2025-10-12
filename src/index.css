@@ -12,15 +12,15 @@ body {
   background-color: #000;
   color: #F5EBDC;
   overflow-x: hidden;
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23F5EBDC' d='M12 2l3 7h7l-5.5 4.5 2 7.5-6.5-5-6.5 5 2-7.5-5.5-4.5h7z'/%3E%3C/svg%3E") 12 12, auto;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23F5EBDC' stroke='%23000' stroke-width='0.5' d='M2 2h2v2H2V2zm2 2h2v2H4V4zm2 2h2v2H6V6zm2 2h2v2H8V8zm2 2h2v2h-2v-2zm-8 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 2h2v2H8v-2z'/%3E%3C/svg%3E") 2 2, auto;
 }
 
 * {
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23F5EBDC' d='M12 2l3 7h7l-5.5 4.5 2 7.5-6.5-5-6.5 5 2-7.5-5.5-4.5h7z'/%3E%3C/svg%3E") 12 12, auto;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23F5EBDC' stroke='%23000' stroke-width='0.5' d='M2 2h2v2H2V2zm2 2h2v2H4V4zm2 2h2v2H6V6zm2 2h2v2H8V8zm2 2h2v2h-2v-2zm-8 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 2h2v2H8v-2z'/%3E%3C/svg%3E") 2 2, auto;
 }
 
 a, button, [role="button"], input[type="submit"], input[type="button"] {
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 32 32'%3E%3Cpath fill='%23F5EBDC' stroke='%23000' stroke-width='1.5' d='M8 4v12h4v-4h4v4h4v4h4V8h-4V4h-4v4h-4V4H8zm0 16v8h4v-4h4v-4h-4v-4H8v4zm8 4v4h4v-4h-4z'/%3E%3C/svg%3E") 14 14, pointer;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23F5EBDC' stroke='%23000' stroke-width='0.5' d='M8 2h2v2H8V2zm2 2h2v2h-2V4zm2 2h2v2h-2V6zm0 2h2v2h-2V8zm0 2h2v2h-2v-2zm-4 0h2v2H8v-2zm-2 2h2v2H6v-2zm-2 2h2v2H4v-2zm-2 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 0h2v2H8v-2zm2 0h2v2h-2v-2zm2-2h2v2h-2v-2zm2-2h2v2h-2v-2zm0-2h2v2h-2v-2z'/%3E%3C/svg%3E") 4 0, pointer;
 }
 
 html {
