@@ -12,20 +12,20 @@ body {
   background-color: #000;
   color: #F5EBDC;
   overflow-x: hidden;
-  cursor: url('/cursor-arrow.png'), auto !important;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M3 3h3v3H3V3zm3 3h3v3H6V6zm3 3h3v3H9V9zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3zm-9 3h3v3H6v-3zm3 3h3v3H9v-3zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3z' fill='%23FFFFFF' stroke='%23000000' stroke-width='0.5'/%3E%3C/svg%3E") 3 3, auto !important;
 }
 
 * {
-  cursor: url('/cursor-arrow.png'), auto !important;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M3 3h3v3H3V3zm3 3h3v3H6V6zm3 3h3v3H9V9zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3zm-9 3h3v3H6v-3zm3 3h3v3H9v-3zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3z' fill='%23FFFFFF' stroke='%23000000' stroke-width='0.5'/%3E%3C/svg%3E") 3 3, auto !important;
 }
 
 a, button, [role="button"], input[type="submit"], input[type="button"], .cursor-pointer, a *, button * {
-  cursor: url('/cursor-hand.png'), pointer !important;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M8 2h3v3H8V2zm3 3h3v3h-3V5zm3 3h3v3h-3V8zm0 3h3v3h-3v-3zm0 3h3v3h-3v-3zm-6 0h3v3H8v-3zm-3 3h3v3H5v-3zm-3 3h3v3H2v-3zm3 3h3v3H5v-3zm3 3h3v3H8v-3zm3 0h3v3h-3v-3zm3 0h3v3h-3v-3zm3-3h3v3h-3v-3zm3-3h3v3h-3v-3zm0-3h3v3h-3v-3z' fill='%23FFFFFF' stroke='%23000000' stroke-width='0.5'/%3E%3C/svg%3E") 5 2, pointer !important;
 }
 
 /* Override text cursor */
 input[type="text"], textarea {
-  cursor: url('/cursor-arrow.png'), text !important;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M3 3h3v3H3V3zm3 3h3v3H6V6zm3 3h3v3H9V9zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3zm-9 3h3v3H6v-3zm3 3h3v3H9v-3zm3 3h3v3h-3v-3zm3 3h3v3h-3v-3z' fill='%23FFFFFF' stroke='%23000000' stroke-width='0.5'/%3E%3C/svg%3E") 3 3, text !important;
 }
 
 html {
