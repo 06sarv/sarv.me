@@ -40,12 +40,12 @@ const Navigation = ({ activeSection }) => {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
                 setActiveSection('home')
               }}
-              className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden shadow-[0_0_20px_rgba(245,235,220,0.4)] hover:shadow-[0_0_30px_rgba(245,235,220,0.6)] transition-all duration-300 cursor-pointer hover:scale-105"
+              className="w-12 h-12 md:w-16 md:h-16 transition-all duration-300 cursor-pointer hover:scale-105"
             >
               <img
                 src="/avatar-icon.png"
                 alt="Sarvagna"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </button>
 
