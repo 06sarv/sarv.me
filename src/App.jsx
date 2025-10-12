@@ -10,6 +10,7 @@ import Volunteering from './components/Volunteering'
 import Contact from './components/Contact'
 import Navigation from './components/Navigation'
 import BackgroundEffect from './components/BackgroundEffect'
+import CustomCursor from './components/CustomCursor'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -39,7 +40,8 @@ function App() {
   }, [])
 
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white relative">
+      <CustomCursor />
       <BackgroundEffect />
       
       {/* Top fade/blur overlay - Cinematic seamless fade */}
