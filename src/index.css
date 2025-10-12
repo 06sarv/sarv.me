@@ -12,15 +12,20 @@ body {
   background-color: #000;
   color: #F5EBDC;
   overflow-x: hidden;
-  cursor: url('/cursor-arrow.jpg') 0 0, auto;
+  cursor: url('/cursor-arrow.png'), auto !important;
 }
 
 * {
-  cursor: url('/cursor-arrow.jpg') 0 0, auto;
+  cursor: url('/cursor-arrow.png'), auto !important;
 }
 
-a, button, [role="button"], input[type="submit"], input[type="button"], .cursor-pointer {
-  cursor: url('/cursor-hand.jpg') 10 0, pointer !important;
+a, button, [role="button"], input[type="submit"], input[type="button"], .cursor-pointer, a *, button * {
+  cursor: url('/cursor-hand.png'), pointer !important;
+}
+
+/* Override text cursor */
+input[type="text"], textarea {
+  cursor: url('/cursor-arrow.png'), text !important;
 }
 
 html {
