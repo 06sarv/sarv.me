@@ -35,15 +35,24 @@ const About = () => {
           >
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               {/* University Logo */}
-              <div className="flex-shrink-0">
-                <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden">
+              <a
+                href="https://www.srmist.edu.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-shrink-0 group"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.2 }}
+                  className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden cursor-pointer"
+                >
                   <img 
                     src="/srmist-logo.jpg" 
                     alt="SRMIST Logo" 
                     className="w-full h-full object-cover"
                   />
-                </div>
-              </div>
+                </motion.div>
+              </a>
               
               {/* Education Details */}
               <div className="flex-1 text-center md:text-left">

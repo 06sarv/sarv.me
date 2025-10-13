@@ -106,7 +106,7 @@ const CustomCursor = () => {
       <div
         ref={cursorRef}
         className={`custom-cursor fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference transition-all duration-300 ease-out ${
-          isHovering ? 'scale-150 opacity-50' : 'scale-100 opacity-100'
+          isHovering ? 'scale-[2] opacity-70' : 'scale-100 opacity-100'
         }`}
         style={{
           width: '40px',
@@ -115,14 +115,16 @@ const CustomCursor = () => {
           marginTop: '-20px',
         }}
       >
-        <div className="w-full h-full rounded-full border-2 border-[#F5EBDC]" />
+        <div className={`w-full h-full rounded-full transition-all duration-300 ${
+          isHovering ? 'border-4 border-[#F5EBDC] bg-[#F5EBDC]/10' : 'border-2 border-[#F5EBDC]'
+        }`} />
       </div>
 
       {/* Cursor dot */}
       <div
         ref={cursorDotRef}
         className={`custom-cursor-dot fixed top-0 left-0 pointer-events-none z-[9999] transition-all duration-200 ease-out ${
-          isHovering ? 'scale-0' : 'scale-100'
+          isHovering ? 'scale-[3]' : 'scale-100'
         }`}
         style={{
           width: '8px',
