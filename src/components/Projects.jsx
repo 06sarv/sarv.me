@@ -18,6 +18,13 @@ const Projects = () => {
       link: 'https://github.com/06sarv/FusionSentinel'
     },
     {
+      title: 'InterVue',
+      description: 'A full-stack AI-driven interview preparation system that generates personalized interview questions and follow-up prompts using Google\'s Gemini 1.5 Pro API, enabling real-time speech-to-text responses, adaptive feedback, and detailed performance reports with modern UI/UX and dynamic timer-based interaction.',
+      tags: ['Speech and UI Engineering', 'Full-Stack Web Development'],
+      image: '/InterviewPage.png',
+      link: 'https://github.com/06sarv/InterVue/tree/main'
+    },
+    {
       title: 'GeneticRAG',
       description: 'A modular Retrieval-Augmented Generation system for genetic counseling that supports local document and VCF variant analysis, advanced vector search, and API access.',
       tags: ['RAG Architecture', 'VCF Analysis', 'Vector Search', 'API Development'],
