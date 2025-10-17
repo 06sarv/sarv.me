@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: 'InterVue',
-      description: 'A full-stack AI-driven interview preparation system that generates personalized interview questions and follow-up prompts using Google\'s Gemini 1.5 Pro API, enabling real-time speech-to-text responses, adaptive feedback, and detailed performance reports with modern UI/UX and dynamic timer-based interaction.',
+      description: 'An AI-driven interview preparation system that generates personalized interview questions and follow-up prompts using Google\'s Gemini API, enabling real-time speech-to-text responses, adaptive feedback, and detailed performance reports with modern UI/UX and dynamic timer-based interaction.',
       tags: ['Speech and UI Engineering', 'Full-Stack Web Development'],
       image: '/InterviewPage.png',
       link: 'https://github.com/06sarv/InterVue/tree/main'
