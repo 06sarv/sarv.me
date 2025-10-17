@@ -11,6 +11,13 @@ const Projects = () => {
       link: 'https://github.com/06sarv/SPORE-2.0/tree/main'
     },
     {
+      title: 'FusionSentinel',
+      description: 'Multi-modal deep learning system for cyber threat detection using CNN-Transformer-BiLSTM fusion architecture.',
+      tags: ['Multimodal Deep Learning', 'Hybrid Neural Architecture Design'],
+      image: '/training_curves.png',
+      link: 'https://github.com/06sarv/FusionSentinel'
+    },
+    {
       title: 'GeneticRAG',
       description: 'A modular Retrieval-Augmented Generation system for genetic counseling that supports local document and VCF variant analysis, advanced vector search, and API access.',
       tags: ['RAG Architecture', 'VCF Analysis', 'Vector Search', 'API Development'],
