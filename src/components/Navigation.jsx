@@ -102,7 +102,7 @@ const Navigation = ({ activeSection }) => {
 
           <div className="ml-auto">
             <motion.a
-              href="https://drive.google.com/file/d/1vDu_7xOGRpw0HXup8eX8ooVoJYfdJ_pt/view?usp=sharing"
+              href="https://docs.google.com/document/d/17-_E0rdXZUOm4q834hTANfL6vjuA-_q15WboWEEkJ8o/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
