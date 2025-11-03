@@ -89,7 +89,7 @@ const Projects = () => {
                         src={project.image}
                         alt={project.title}
                         className={`w-full h-full transition-transform duration-500 group-hover:scale-105 ${
-                          project.title === 'ReactNow' || project.title === 'FusionSentinel'
+                          project.title === 'ReactNow' || project.title === 'FusionSentinel' || project.title === 'Genetic Workbench'
                             ? 'object-contain' 
                             : 'object-cover object-top'
                         }`}
