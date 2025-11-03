@@ -25,11 +25,11 @@ const Projects = () => {
       link: 'https://github.com/06sarv/InterVue/tree/main'
     },
     {
-      title: 'GeneticRAG',
+      title: 'Genetic Workbench',
       description: 'A modular Retrieval-Augmented Generation system for genetic counseling that supports local document and VCF variant analysis, advanced vector search, and API access.',
       tags: ['RAG Architecture', 'VCF Analysis', 'Vector Search', 'API Development'],
       image: '/Screenshot 2025-10-12 at 02.40.02.png',
-      link: 'https://github.com/06sarv/GeneticRAG'
+      link: 'https://github.com/06sarv/gc.workbench'
     },
     {
       title: 'Sizl',
