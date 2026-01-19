@@ -69,7 +69,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-3 justify-center md:justify-start items-center text-sm text-[#F5EBDC]/60">
                   <span>2023 - 2027</span>
                   <span className="text-[#F5EBDC]/30">•</span>
-                  <span>CGPA: <span className="font-medium text-white">9.29</span></span>
+                  <span>CGPA: <span className="font-medium text-white">9.40</span></span>
                 </div>
               </div>
             </div>
