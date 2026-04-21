@@ -9,16 +9,16 @@ const Volunteering = () => {
       description: 'Leading the life sciences domain, driving research initiatives and interdisciplinary projects combining ML, data engineering, and biotechnology for advanced mission objectives.'
     },
     {
+      role: 'Life Sciences Associate',
+      organization: 'Team RUDRA - SRM Mars Rover',
+      period: 'Nov 2024 - Mar 2026',
+      description: 'Bridging computer science and biology as an interdisciplinary contributor, applying ML and data engineering to advance life sciences research and mission objectives.'
+    },
+    {
       role: 'Trainee',
       organization: 'Team RUDRA - SRM Mars Rover',
       period: 'Sep 2024 - Nov 2024',
       description: 'Focused on astrobiology and biotechnology research, contributing to the team\'s scientific foundation.'
-    },
-    {
-      role: 'Life Sciences Associate',
-      organization: 'Team RUDRA - SRM Mars Rover',
-      period: 'Nov 2024 - Present',
-      description: 'Bridging computer science and biology as an interdisciplinary contributor, applying ML and data engineering to advance life sciences research and mission objectives.'
     },
     {
       role: 'Design Associate',

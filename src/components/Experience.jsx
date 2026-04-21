@@ -110,11 +110,11 @@ const Experience = () => {
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.2 }}
-                  className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br from-[#003366] to-[#001a33] flex items-center justify-center overflow-hidden cursor-pointer"
+                  className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-white flex items-center justify-center overflow-hidden cursor-pointer"
                 >
                   <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Mahindra_Group_Logo.svg" 
-                    alt="Mahindra Group Logo" 
+                    src="/mahindra-rise-logo.png" 
+                    alt="Mahindra Rise Logo" 
                     className="w-full h-full object-contain p-3"
                   />
                 </motion.div>
