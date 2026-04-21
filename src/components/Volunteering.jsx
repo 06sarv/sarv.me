@@ -3,6 +3,12 @@ import { motion } from 'framer-motion'
 const Volunteering = () => {
   const activities = [
     {
+      role: 'Life Sciences Vice Lead',
+      organization: 'Team RUDRA - SRM Mars Rover',
+      period: 'Mar 2026 - Present',
+      description: 'Leading the life sciences domain, driving research initiatives and interdisciplinary projects combining ML, data engineering, and biotechnology for advanced mission objectives.'
+    },
+    {
       role: 'Trainee',
       organization: 'Team RUDRA - SRM Mars Rover',
       period: 'Sep 2024 - Nov 2024',
