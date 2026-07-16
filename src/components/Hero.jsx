@@ -24,7 +24,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl beige-text max-w-3xl mx-auto"
           >
-            AI Enthusiast | F1 Aficionado | Pixie-Cut Coder
+            in pursuit of logic and language.
           </motion.p>
         </motion.div>
       </div>
